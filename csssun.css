@@ -1,0 +1,104 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+h2{
+    font-size: 30px;
+    color: #ff0808;
+    letter-spacing: 2px;
+}
+header ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style-type: none;
+}
+header ul li{
+    margin-right:30px;
+}
+header ul li a{
+    padding:6px 15PX 6px 15px;
+    border-radius: 20px;
+}
+/*header ul li a:hover, .active{
+    background:#fff;
+    color:#200016;
+}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-image:url(./img1/stars1.png);
+        background-color: #000;
+        height:100vh;
+        font-family:system-ui;
+    }
+    .cont{
+        height: 650px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+
+
+
+    }
+    .cont1{
+     
+        display: flex;
+flex-direction: row;
+
+            }
+    .sun{
+
+width: 500px;
+height:500px ;
+    }
+ 
+
+.text{
+ color: #fff;
+ /*   background:linear-gradient(#160000,#000000);*/
+ background: url(./img1/stars1.png);
+height: 400px;
+width: 900px;
+margin-top: 60px;
+border-radius:30px 30px ;
+border: 2px rgb(233, 71, 31) solid;
+border-radius: 20px;
+box-shadow: 20px 20px 30px rgb(233, 71, 31);
+}
+.active{
+    color: #000000;
+    background-color: rgb(233, 71, 31);
+    
+    }
+    .text{
+display: flex;
+flex-direction: row;
+text-align: center;
+color: rgb(255, 136, 107);;
+font-family: 'Courier New', Courier, monospace;
+font-size: 17px;
+
+
+    }
+    .text1{
+width: 50%;
+margin-top: 60px;
+    }
+    .table1{
+      
+        width: 50%;
+        margin-top: 90px;
+margin-left: 60px;
+    }
